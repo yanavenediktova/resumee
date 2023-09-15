@@ -1,0 +1,53 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.projects__element {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 20px;
+  background-color: rgb(253, 203, 193);
+  border-radius: 15px;
+}
+.project-logo {
+  max-width: 300px;
+  width: 100%;
+  display: flex;
+}
+.project-logo__img {
+  width: 100%;
+}
+.content__element {
+  background-color: #e4e4e4;
+  padding: 10px 20px 20px 20px;
+  border-radius: 20px;
+}
+.content {
+  display: flex;
+  row-gap: 20px;
+
+  flex-direction: column;
+}
+.education {
+  display: flex;
+  column-gap: 20px;
+}
+.education__university {
+  padding-left: 1.5em;
+  border-left: black solid 2px;
+}
+.content__element_education {
+  height: fit-content;
+  max-width: 600px;
+}
+.purposes__element {
+  margin-bottom: 10px;
+}
+.purposes {
+  padding-left: 20px;
+}
+.links {
+  display: flex;
+  align-items: center;
+}

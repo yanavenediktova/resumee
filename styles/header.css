@@ -1,0 +1,44 @@
+.main-header {
+  background-color: #333;
+
+  grid-row: 1; /* Определение строки для header */
+  grid-column: 1 / span 2; /* Занимает оба столбца */
+}
+.main-header-wrapper {
+  padding: 10px;
+}
+.main-header__title-link {
+  font-size: 24px;
+  color: #f9f9f9;
+  line-height: 36px;
+  font-weight: 700;
+}
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto; /* Определение строк */
+  grid-template-columns: 300px 1fr; /* Определение столбцов */
+  height: 100vh;
+  margin: 0;
+}
+
+.sidebar {
+  background-color: #f0f0f0;
+  padding: 10px;
+  grid-row: 2; /* Определение строки для sidebar */
+  grid-column: 1; /* Определение столбца для sidebar */
+}
+
+.main-content {
+  background-color: #f9f9f9;
+  padding: 10px;
+  grid-row: 2; /* Определение строки для main content */
+  grid-column: 2; /* Определение столбца для main content */
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  grid-row: 3; /* Определение строки для footer */
+  grid-column: 1 / span 2; /* Занимает оба столбца */
+}
